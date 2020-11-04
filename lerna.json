@@ -7,10 +7,10 @@
   "npmClient": "yarn",
   "message": "chore(release): publish",
   "command": {
+    "bootstrap": {
+      "hoist": true
+    },
     "publish": {
-      "bootstrap": {
-        "hoist": true
-      },
       "ignoreChanges": [
         "ignored-file",
         "*.md",
