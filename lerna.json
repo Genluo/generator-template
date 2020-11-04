@@ -1,0 +1,26 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "useWorkspaces": true,
+  "version": "independent",
+  "npmClient": "npm",
+  "command": {
+    "publish": {
+      "bootstrap": {
+        "hoist": true
+      },
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md",
+        "**/test/**",
+        "**/develop/**"
+      ],
+      "message": "chore(release): publish %s"
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  }
+}
+
