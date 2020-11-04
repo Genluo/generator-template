@@ -1,6 +1,6 @@
 {
   "name": "@generator-template/analyze",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "> TODO: description",
   "homepage": "https://github.com/Genluo/generator-template#readme",
   "main": "index.js",
@@ -10,7 +10,6 @@
   "dependencies": {
     "user": "^0.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
