@@ -67,5 +67,14 @@
   },
   "workspaces": {
     "packages": ["packages/*"]
+  },
+  "changelog": {
+    "labels": {
+      "feat": ":rocket: New Feature",
+      "bug": ":bug: Bug Fix",
+      "doc": ":memo: Documentation",
+      "internal": ":house: Internal",
+      "breaking": ":boom: Breaking Change"
+    }
   }
 }
