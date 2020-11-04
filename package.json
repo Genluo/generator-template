@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": true,
   "scripts": {
     "bootstrap": "yarn install",
     "build": "lerna run --stream --sort build",
@@ -65,5 +64,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Genluo/generator-template.git"
+  },
+  "workspaces": {
+    "packages": ["packages/*"]
   }
 }
