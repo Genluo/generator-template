@@ -3,5 +3,5 @@
 module.exports = analyze;
 
 function analyze() {
-  console.log('analyze changelog');
+  console.log('analyze changelog test');
 }
