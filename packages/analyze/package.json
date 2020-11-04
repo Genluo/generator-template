@@ -1,26 +1,19 @@
 {
   "name": "@generator-template/analyze",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
-  "author": "云墨",
   "homepage": "https://github.com/Genluo/generator-template#readme",
-  "license": "ISC",
-  "main": "lib/analyze.js",
+  "main": "index.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Genluo/generator-template.git"
+  "dependencies": {
+    "user": "^0.0.0"
   },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bugs": {
-    "url": "https://github.com/Genluo/generator-template/issues"
-  }
+  "author": "云墨",
+  "license": "ISC"
 }
