@@ -4,7 +4,8 @@
   ],
   "useWorkspaces": true,
   "version": "independent",
-  "npmClient": "npm",
+  "npmClient": "yarn",
+  "message": "chore(release): publish",
   "command": {
     "publish": {
       "bootstrap": {
